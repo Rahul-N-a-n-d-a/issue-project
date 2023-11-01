@@ -17,3 +17,10 @@ mongoose
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(CORS());
+
+app.post('/asd', (req,res) =>{
+  // const username = req.body.username;
+  console.log(req);
+ return res.send("hiuo")
+
+})
